@@ -14,8 +14,21 @@
         background-color: #4CAF50;
         color: white;
       }
-
-    </style>
+      div {
+        width: 100px;
+        height: 100px;
+        transform-origin: center center;
+        transition: width 0s, height 0s, transform 20s;
+        cursor: none;
+      }
+      div:hover {
+        cursor: none;
+        transform-origin: center center;
+        width: 100px;
+        height: 100px;
+      transform: rotate(3600000000deg);
+      }
+      </style>
 
 <body>
 <div>
@@ -36,26 +49,11 @@
   </a>
 
 
-<style> 
-div {
-  width: 100px;
-  height: 100px;
-  transform-origin: center center;
-  transition: width 0s, height 0s, transform 20s;
-  cursor: none;
-}
-div:hover {
-  cursor: none;
-  transform-origin: center center;
-  width: 100px;
-  height: 100px;
- transform: rotate(3600000000deg);
-}
-</style>
 
 
 
-<img src="owo.png"></div>
+<img src="owo.png">
+</div>
 
 
   
