@@ -3,7 +3,7 @@
   color: black; 
   border: 2px solid #4CAF50;
   cursor: grab;
-  transition-duration: 1s;
+  transition-duration: 0.2s;
 }
 .button1:hover {
   background-color: #4CAF50;
