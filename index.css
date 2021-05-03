@@ -112,5 +112,54 @@ body {
     float: none;
   }
 }
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+body {
+  margin: 0;
+  font-family: Sickness;
+  background-color: rgb(13, 18, 49);
+  color: #661913dc;
+}
 
+.topnav {
+  overflow: hidden;
+  background-color: rgb(13, 18, 49);
+}
+
+.topnav a {
+  float: left;
+  color: #661913dc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #661913dc;
+}
+
+.topnav a.active {
+  background-color: #1ab82f;
+  color: #661913dc;
+}
+
+@font-face {
+  font-family: Sickness;
+  src: url(Sickness.ttf);
+}
+
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
 
