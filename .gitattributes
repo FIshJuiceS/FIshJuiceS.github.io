@@ -1,0 +1,5 @@
+Rick filter=lfs diff=lfs merge=lfs -text
+and filter=lfs diff=lfs merge=lfs -text
+morty filter=lfs diff=lfs merge=lfs -text
+5x01.mp4 filter=lfs diff=lfs merge=lfs -text
+Ram5x01.mp4 filter=lfs diff=lfs merge=lfs -text
