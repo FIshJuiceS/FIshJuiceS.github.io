@@ -1,0 +1,43 @@
+/* s t u f f */
+body {
+  margin: 0;
+  font-family: Sickness;
+  background-color:rgb(13, 18, 49);
+  color: #661913dc;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(13, 18, 49);
+}
+.topnav a {
+  float: left;
+  color: #661913dc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: #661913dc;
+}
+.topnav a.active {
+  background-color: #135f1d;
+  color: #661913dc;
+}
+@font-face {
+  font-family: Sickness;
+  src: url(Sickness.ttf);
+}
+.button {
+  border: none; padding: 14px 16px;;
+  background-color:rgb(13, 18, 49); 
+  color: #661913dc; 
+  font-family: Sickness; 
+  font-size: 17px;
+}
+.button:hover {
+  background-color: #ddd;
+  color: #661913dc;
+}
+
